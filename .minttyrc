@@ -1,0 +1,6 @@
+BoldAsFont=no
+Locale=pl_PL
+Charset=UTF-8
+FontHeight=12
+RightClickAction=paste
+ClicksTargetApp=yes

@@ -1,0 +1,9 @@
+[user]
+	name = Marek Ramotowski
+	email = ma-ra@users.noreply.github.com
+[core]
+	editor = vim
+[merge]
+	tool = vimdiff
+[alias]
+	glog = log --graph --pretty=\"format:%C(yellow)commit %h%n%C(white)Author: %an <%ae>%nDate:   %ai%n%n%w(0,4,4)%B%n\"
