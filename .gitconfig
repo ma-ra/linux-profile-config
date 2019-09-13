@@ -6,4 +6,8 @@
 [merge]
 	tool = vimdiff
 [alias]
-	glog = log --graph --pretty=\"format:%C(yellow)commit %h%n%C(white)Author: %an <%ae>%nDate:   %ai%n%n%w(0,4,4)%B%n\"
+	glog = log --graph --pretty=\"format:%C(yellow)commit %h->%p %C(auto)%d%n%C(white)Author: %an <%ae>%nDate:   %ai%n%n%w(0,4,4)%B%n\"
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = 0
